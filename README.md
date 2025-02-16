@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: multiple mutable borrows of the same variable.  The example shows how the compiler prevents this to avoid data races. The solution demonstrates using techniques like interior mutability to work around this limitation when needed.
